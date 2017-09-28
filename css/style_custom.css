@@ -282,6 +282,6 @@ or wrap each row of columns in a <div class="row"> */
 @media only screen and (max-width: 767px) {
 
 	form, label, input  {width: 90%;}
-	input[type="submit"] {width: 90%x;}
+	input[type="submit"] {width: 90%;}
 	textarea {width: 90%;}
 }
