@@ -285,3 +285,7 @@ or wrap each row of columns in a <div class="row"> */
 	input[type="submit"] {width: 90%;}
 	textarea {width: 90%;}
 }
+
+.justify{
+	text-align: justify;
+}
