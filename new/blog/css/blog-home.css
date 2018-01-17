@@ -54,8 +54,19 @@ body {
 	padding-right: 15px;
 }
 
+.row{
+	width: 100%!important;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+}
+ @media (max-width: 575px) {
+  .div-content {
+   	padding-left: 10px;
+  }
+ }
+  
 }
