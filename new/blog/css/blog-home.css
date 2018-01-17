@@ -18,16 +18,17 @@ body {
 }
 
 .card{
-    border: 1px solid rgba(255,81,38,.50)!important;
+    border: 1px solid #FFF!important;
+    background-color: #f9f9f9!important;
 }
 
 .card-footer{
-	border-top: 1px solid rgba(255,81,38,.50)!important;
-	background-color: #f29225!important;
+	border-top: 1px solid #FFF!important;
+	background-color: #f9f9f9!important;
 }
 
 .text-muted{
-	color: #FFF!important;
+	color: #000!important;
 }
 
 .btn-primary{
@@ -62,7 +63,16 @@ body {
   body {
     padding-top: 56px;
   }
+  .row-post{
+	margin: auto;
+	padding-left: 150px;
+	padding-right: 150px;
+		
+	}
 }
+
+
+
  @media (max-width: 575px) {
   .div-content {
    	padding-left: 10px;
