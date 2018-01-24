@@ -420,8 +420,6 @@ p{font-weight:300}.text-white{color:#fff}.text-red{color:#FF5126}.text-black{col
 .channels-section .channels-slider .slider-content-wrap .image-wrap img{
 	max-height:250px;
 	padding-top: 70px;
-
-
 }
 @media (max-width:575px){
 	.channels-section .channels-slider .slider-content-wrap .image-wrap{
@@ -584,6 +582,12 @@ p{font-weight:300}.text-white{color:#fff}.text-red{color:#FF5126}.text-black{col
 .navbar ul li.page4 {
   border-bottom-color: #fff;
 }
+.navbar ul li.page5 {
+  border-bottom-color: #fff;
+}
+.navbar ul li.page6 {
+  border-bottom-color: #fff;
+}
 .navbar ul li a:link,
 .navbar ul li a:visited,
 .navbar ul li a:active,
@@ -610,18 +614,19 @@ p{font-weight:300}.text-white{color:#fff}.text-red{color:#FF5126}.text-black{col
     font-size: 0; /*fix white space*/
 }
 .container-sobre h3{
-	font-size: 20px;
+	font-size: 15px;
 }
 .container-sobre h4{
 	color: #FFF;
 	padding-left: 15px;
 	padding-bottom: 15px;
+	font-size: 20px;
 }
 .container-sobre > div {
     font-size: 16px; /*reset font size*/
     display: inline-block;
     vertical-align: top;
-    width: 33.33%;
+    width: 25%;
     border: 0px;
     box-sizing: border-box;
     text-align: left;
@@ -633,6 +638,11 @@ p{font-weight:300}.text-white{color:#fff}.text-red{color:#FF5126}.text-black{col
     }
 }
 
+.somos{
+	padding-left: 15px;
+    color: #FFF;
+}
+
 .missao{
     padding-left: 15px;
     color: #FFF;
@@ -642,6 +652,7 @@ p{font-weight:300}.text-white{color:#fff}.text-red{color:#FF5126}.text-black{col
 	color: #FFF;
 }
 .valores{
+	padding-left: 15px;
 	padding-right: 15px;
 	color: #FFF;
 }
