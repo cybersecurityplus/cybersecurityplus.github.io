@@ -5,6 +5,7 @@
 /* Carousel base class */
 
 .carousel, .item, .active{height:100%;}
+.carousel{background-color: #FFF}
 .carousel-inner{
 	height:100%;
 	width: 100%;
