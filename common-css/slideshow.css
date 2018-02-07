@@ -1,9 +1,7 @@
-* {
-	box-sizing: border-box
-}
-
 .mySlides {
-	display: none
+	display: none;
+	height: 95%;
+	width: 100%;
 }
 
 /* Next & previous buttons */
@@ -33,7 +31,7 @@
 
 /* The dots/bullets/indicators */
 .dot {
-	cursor: pointer;
+/* 	cursor: pointer; */
 	height: 10px;
 	width: 10px;
 	margin: 0 2px;
@@ -47,6 +45,10 @@
 	background-color: #717171;
 }
 
-.swiper-wrapper {
-	width: 100% !important;
+.swiper-slide, .swiper-wrapper {
+     width: 100%!important;
+     height: 100%!important;
 }
+
+.slide-img{max-width: 20%; left: 50%}
+.slide-content{right: 50%;}

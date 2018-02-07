@@ -3,99 +3,283 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Swiper demo</title>
+  <title>CyberSecurity++</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="../styles/swiper.min.css">
+  <!-- Font -->
+	<link href="../common-css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+<!-- 	<link href="../common-css/bootstrap.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="../common-css/carousel.css" rel="stylesheet">
+	<link href="../common-css/styles.css" rel="stylesheet">
+	<link href="../common-css/responsive.css" rel="stylesheet">
+	
 
-  <!-- Demo styles -->
-  <style>
-    html, body {
-      position: relative;
-      height: 100%;
-    }
-    body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color:#000;
-      margin: 0;
-      padding: 0;
-    }
-    .swiper-container {
-      width: 100%;
-      height: 100%;
-
-    }
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-  </style>
 </head>
-<body>
-  <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-      	<h2 class="title-control">CyberSecurity++</h2>
-      	
-      	
+<body data-spy="scroll" data-target="#navbar">
+<header>
+	<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" id="navbar">
+    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      	<img class="navbar-brand" src="../images/logos/cyber_logo_borda_laranja.png">
+      	<div class="collapse navbar-collapse" id="navbars">
+        		<ul class="navbar-nav ml-auto">
+          		<li class="nav-item">
+            			<a class="nav-link active" href="#seguranca">Segurança Cibernética <span class="sr-only">(current)</span></a>
+          		</li>
+          		<li class="nav-item">
+            			<a class="nav-link" href="#servicos">Produtos e Serviços</a>
+          		</li>
+          		<li class="nav-item">
+		            <a class="nav-link" href="#sobre">Quem Somos</a>
+		        </li>
+		        <li class="nav-item">
+		            <a class="nav-link" href="#parceiros">Parceiros</a>
+		        </li>
+		        <li class="nav-item">
+		            <a class="nav-link" href="#contato">Contato</a>
+	            </li>
+	            <li class="nav-item">
+		            <a class="nav-link" href="../blog/index.html">BLOG</a>
+	            </li>
+        		</ul>
       </div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
-      <div class="swiper-slide">Slide 10</div>
+    </nav>
+</header>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+<!--           <li data-target="#myCarousel" data-slide-to="2"></li> -->
+        </ol>
+        <div class="carousel-inner" id="seguranca">
+        
+          <div class="carousel-item active">
+          	<div class="row row-slide">
+          		<div class="col-md-6 pull-md-6 text-slide-content">
+					<div>
+						<h2 class="slide-title">CyberSecurity++</h2>
+						<div>
+							<p class="slide-paragraph">A CyberSecurity++ é uma empresa especializada no desenvolvimento de sistemas de Segurança da Informação. Nosso foco principal são sistemas para antecipação de ameaças cibernéticas e de inteligência em segurança da informação.  Também prestamos consultoria em cibersegurança e análise de riscos para organizações públicas e privadas. </p>
+						</div>
+					</div>
+				</div>
+	          	<div class="col-md-6 push-md-6 img-slide-content">
+					<img class="image-slide" src="../images/slider/slide0.png" alt="CyberSecurity++ Logo">
+				</div>
+			</div>
+          </div>
+          
+          <div class="carousel-item">
+          	<div class="row row-slide">
+          		<div class="col-md-6 pull-md-6 text-slide-content">
+					<div>
+						<h2 class="slide-title">Como se encontra a segurança cibernética do seu negócio?</h2>
+						<div>
+							<p class="slide-paragraph">Se a resposta for não sei, é provável que você tenha problemas na área de Cibersegurança em seu negócio e os desconheça. Isso indica que o risco de sua empresa sofrer incidentes de segurança é alto. Tais incidentes resultam em perda ou vazamento de dados, perda de reputação, prejuízos financeiros, entre outros. Os cibercriminosos estão usando novas técnicas de invasão e explorando novas vulnerabilidades diariamente, logo é indispensável que as organizações também inovem em  soluções de segurança constantemente.</p>
+						</div>
+					</div>
+				</div>
+	          	<div class="col-md-6 push-md-6 img-slide-content">
+					<img class="image-slide" src="../images/slider/empresario.png" alt="Empresário com problemas">
+				</div>
+			</div>
+          </div>
+          
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      
+      
+<div class="main-content">
+<div class="marketing" id="servicos">
+	<div class="row">
+		<div class="col-sm-12">
+			<h4>PRODUTOS E SERVIÇOS</h4>
+		</div>
+    		<div class="col-lg-3">
+            <img class="rounded-circle" src="../images/slider/horus++.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Hórus++</h2>
+            <p>Hórus++ é um sistema de análise preditiva de cibersegurança baseado em informações obtidas de fontes  abertas na Internet (OSINT).</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Ver Mais &raquo;</a></p>
+     	</div>
+     	<div class="col-lg-3">
+            <img class="rounded-circle" src="../images/slider/blockchain.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 style="font-size: 30px; text-align: center;">Blockchain para empresas</h2>
+            <p>A tecnologia blockchain é um novo marco na  história  da tecnologia, assim como o surgimento da Internet. Portanto, a adoção do blockchain poderá se tornar crucial para que sua organização acompanhe a constante inovação tecnológica.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Ver Mais &raquo;</a></p>
+     	</div>
+     	<div class="col-lg-3">
+            <img class="rounded-circle" src="../images/slider/risco.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 style="font-size: 30px; text-align: center;">Análise de riscos</h2>
+            <p>Como se encontra a segurança cibernética do seu negócio? Se a resposta for não sei, é  provável que você possua problemas de segurança cibernética.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Ver Mais &raquo;</a></p>
+     	</div>
+     	<div class="col-lg-3">
+            <img class="rounded-circle" src="../images/slider/consultoria.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 style="font-size: 30px; text-align: center;">Consultoria em segurança cibernética</h2>
+            <p>Novas ameaças cibernéticas surgem a cada dia, porém muitas empresas não estão preparadas para elas. Entender os riscos e saber o que fazer pode ser um grande desafio. Quer saber por onde começar ou como melhorar  a segurança da informação em seu negócio?</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Ver Mais &raquo;</a></p>
+     	</div>
+     </div>
+</div>   
+
+
+<div id="sobre">
+<div class="row">
+			<div class="col-sm-12">
+				<h4>QUEM SOMOS </h4>
+			</div>
+			<div class="col-sm-3">
+				<h4>Sobre</h4>
+				<p>A CyberSecurity++ é uma empresa especializada no desenvolvimento de sistemas de Segurança da Informação. Nosso foco principal são sistemas para Antecipação de Ameaças Cibernéticas e de Inteligência em Segurança da Informação.  Também prestamos consultoria em Cibersegurança e Análise de Riscos para organizações públicas e privadas.</p>
+			</div>
+
+			<div class="col-sm-3">
+				<h4>Missão</h4>
+
+				<p>Prover segurança computacional aos parceiros e clientes por meio de
+					inteligência de dados cibernéticos e promover a inovação constante
+					por meio de mecanismos preditivos em cibersegurança e sistemas
+					seguros.</p>
+			</div>
+			<div class="col-sm-3">
+				<h4>Visão</h4>
+				<p>Ser referência em inovação em cibersegurança por meio de
+					sistemas preditivos, tecnologias disruptivas e inteligência
+					cibernética no Brasil até 2025.</p>
+			</div>
+			<div class="col-sm-3">
+				<h4>Valores</h4>
+				<p>A CyberSecurity++ preza pela ética, transparência, 
+					integridade da informação, além do sigilo no manuseio de
+					informações sensíveis de seus clientes, 
+					garantindo a segurança e confiança em suas relações.</p>
+			</div>
+			</div>
+		</div>
+
+   
+ <div class="parceiros" id="parceiros">    
+  <div class="row">
+  	<div class="col-sm-12">
+	<h4>PARCEIROS</h4>
+</div>
+    <div class="col-sm-3">
+      <a href="https://www.rnp.br/servicos/seguranca"> <img src="../images/logos/cais2.png" alt="CAIS" class="img-responsive"></a> 
     </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="col-sm-3"> 
+      <a href="https://www.rnp.br/"> <img src="../images/logos/rnp2.png" alt="RNP" class="img-responsive"></a>    
+    </div>
+    <div class="col-sm-3"> 
+      <a href="http://www5.usp.br/"> <img src="../images/logos/usp2.png" alt="USP" class="img-responsive"></a>    
+    </div>
+    <div class="col-sm-3"> 
+       <a href="http://www.utfpr.edu.br"> <img src="../images/logos/utfpr2.png" alt="UTFPR" class="img-responsive"></a>   
+    </div>
   </div>
+</div>
+
+		
+<div class="container" id="contato">
+<div class="row">
+<div class="col-sm-12">
+	<h4>CONTATO</h4>
+</div>
+<div class="col-sm-3"></div>
+<div class="col-sm-6">
+<form action="https://formspree.io/marlonfa@gmail.com" method="POST" id="get-started-form" class="">
+	<div class="form-group">
+		<label for="name">Nome</label>
+		<input class="form-control" type="text" name="name" id="name" placeholder="Seu nome*" required>
+	</div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input class="form-control" type="email" name="_replyto" id="email" placeholder="Seu email*" required>
+  </div>
+  <div class="form-group">
+    <label for="company-name">Empresa</label>
+    <input class="form-control" type="text" name="company-name" id="company-name" placeholder="Nome da Empresa*" required>
+  </div>
+  <div class="form-group">
+    <label for="message">Mensagem</label>
+    <textarea class="form-control" name="message" id="message" rows="4" required placeholder="Mensagem*"></textarea>
+  </div>
+  	<div class="col-xs-4 text-right">
+  	<input type="submit" value="Enviar" class="btn btn-secondary">
+  	</div>
+</form>           
+</div>        
+<div class="col-sm-3"></div>     	
+</div>
+       </div>    
+       </div>         
+  <footer>
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-section">
+
+						<a class="logo" href="index.html"><img class="footer-logo" src="../images/logos/cyber_logo_borda_laranja.png" alt="Logo CyberSecurity++"></a><br/><br/>
+						<p><i class="copyright fa fa-envelope"></i> <a class="footer-link" href="mailto:comercial@cybersecurityplus.com.br">comercial@cybersecurityplus.com.br</a></p>
+						<p><i class="copyright fa fa-phone"></i> <i class="copyright fa fa-whatsapp"></i> (44) 9 8802-8242</p>
+						<p><i class="copyright fa fa-home"></i><!-- Av. das Avenidas<br> CEP: 87302-180 <br>  --> Campo Mourão - PR</p>
+<!-- 						<p><i class="copyright fa fa-language"></i> Idioma: <a class="footer-link" href="../pt/index.html">Português</a></p> -->
+						
+						
+						<ul class="icons">
+<!-- 							<li><a href="http://www.twitter.com/cybersecplus"><i class="fa fa-twitter"></i></a></li> -->
+							<li><a href="http://www.facebook.com/cybersecplus"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/26784288/"><i class="fa fa-linkedin"></i></a></li>
+<!-- 							<li><a href="https://plus.google.com/cybersecplus"><i class="fa fa-google-plus"></i></a></li> -->
+							<li><a href="https://www.youtube.com/channel/UCBRxurYmC1P2r7Zg3lfPECA"><i class="fa fa-youtube"></i></a></li>
+						</ul>
+
+					</div><!-- footer-section -->
+				</div><!-- col-lg-4 col-md-6 -->
+
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-section">
+						<img class="inovativa" alt="Startup Acelerada Inovativa 2017.2" src="../images/selo_2017_ciclo2.png">
+					</div>
+					<!-- footer-section -->
+				</div>
+				<!-- col-lg-4 col-md-6 -->
+
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-section">
+						<iframe
+							src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCyberSecPlus%2F&tabs=timeline&width=340&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=157110911738456"
+							width="340" height="200" style="border: none; overflow: hidden"
+							scrolling="no" frameborder="0" allowTransparency="true">
+						</iframe>
+
+					</div><!-- footer-section -->
+				</div><!-- col-lg-4 col-md-6 -->
+
+			</div><!-- row -->
+		</div><!-- container -->
+	</footer>
 
   <!-- Swiper JS -->
-  <script src="../scripts/swiper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="../common-js/tether.min.js"></script>
+	<script src="../common-js/scripts.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
 </body>
 </html>
