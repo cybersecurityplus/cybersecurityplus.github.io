@@ -20,7 +20,7 @@ html{ font-size: 100%; height: 100%;  overflow-x: hidden; touch-action: manipula
 
 body{ font-size: 15px; font-family: 'Roboto', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 300;
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
-	background: #FFF; color: #000; position: relative;} 
+	background: #f2f0eb; color: #000; position: relative;} 
 
 header  ul, li{ margin: 0; padding: 0; font-weight: 300; }
 footer  ul, li{ margin: 0; padding: 0; font-weight: 300; }
@@ -78,14 +78,15 @@ footer li{ list-style: none; display: inline-block; }
 3. MENU
 --------------------------------- */
 
-header img{ max-width: 100px; }
+header img{ max-width: 130px; }
 
-header a{font-weight: 600}
-header a:hover{color: FFF!important; border-bottom: 3px solid #FF5126!important;}
+header a{font-weight: 900!important}
+header a:hover{color: FFF!important; border-bottom: 3px solid #FFF!important; font-weight: 900!important}
 
 /* .nav-link.active{color: FFF!important; border-bottom: 3px solid #FF5126!important;} */
 
-.bg-inverse { background-color: #333 !important; }
+/* .bg-inverse { background-color: #333 !important; } */
+.bg-dark { background-color: #f29225 !important; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19)}
 
 /* ---------------------------------
 5. SINGLE POST
@@ -173,7 +174,8 @@ header a:hover{color: FFF!important; border-bottom: 3px solid #FF5126!important;
 10. FOOTER
 --------------------------------- */
 
-footer{ padding: 70px 0 30px; background: #333; color: #fff }
+/* footer{ padding: 70px 0 30px; background: #333; color: #fff } */
+footer{ padding: 70px 0 30px; background: #f29225; color: #fff }
 
 footer .footer-section{ margin-bottom: 40px; }
 
@@ -215,13 +217,13 @@ footer .icons > li > a:hover{ transform: translateY(-2px); box-shadow: 5px 10px 
 @media screen and (max-width: 768px){.inovativa {max-width: 50%}}
 @media screen and (max-width: 370px){.inovativa {max-width: 100%}}
 
-footer p{ color: #FFF!important}
+footer p{ color: #FFF!important; font-weight: 800!important;}
 
 footer a:link,
 footer a:visited,
 footer a:active,
 footer a:focus { color: #FFF!important; text-decoration: none; }
-footer a:hover {color: #FFF!important; text-decoration: none; border-bottom: 3px solid #FF5126;}
+footer a:hover {color: #FFF!important; text-decoration: none; border-bottom: 3px solid #FFF;}
 
 .title a:link,
 .title a:visited,
@@ -289,7 +291,7 @@ font-weight: 500!important;
 .marketing{
 	display:flex;
   	align-items:center;
-	padding-top: 15px;
+	padding-top: 55px;
 	height: 100vh;
 	padding-right: 15px;
 }
@@ -377,7 +379,8 @@ font-weight: 500!important;
 --------------------------------- */
 #contato{
 	height: 100vh;
-	padding-top: 15px;
+	padding-top: 45px;
+	margin-bottom: 35px;
 }
 
 #contato form{
