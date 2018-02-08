@@ -398,6 +398,17 @@ font-weight: 500!important;
 	margin-bottom: 30px;
 }
 
+.contato-servicos{
+	padding-top: 0px !important;
+	width: 70% !important;
+}
+
+.contato-principal{
+	width: 40% !important;
+	margin: 0 auto !important;
+	margin-bottom: 30px !important;
+}
+
 #contato form{
 	border-radius: 10px;
 	background-color: #f29225;
@@ -436,7 +447,11 @@ font-weight: 500!important;
     border-color: #fe6501;
 }
 
-
+form h2{
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
 /* ---------------------------------
 PRODUTOS E SERVIÇOS
 --------------------------------- */
@@ -460,24 +475,54 @@ PRODUTOS E SERVIÇOS
 }
 
 .produtos-servicos p{
-	font-weight: 400;
+	font-weight: 600;
+}
+
+.center{
+	text-align: center;
 }
 
 .produtos-servicos ul, li{
-	font-weight: 400;
+	font-weight: 400!important;
 }
 
 .produtos-servicos-logo{
 	max-width: 15% !important;
 	padding-top: 120px;
 }
+
+#trabalhando{
+	max-width: 40%;
+}
+.alerta{
+	max-width: 30%!important;
+}
 /* ---------------------------------
 RESPONSIVE CSS
 --------------------------------- */
   
- @media (max-width: 991px) {
+ @media (max-width: 992px) {
   #sobre, #parceiros, .marketing {
   	height: auto;
+  }
+  .contato-servicos, .contato-principal h2{
+		font-size: 30px;
+	}
+	.contato-servicos, .contato-principal{
+		width: 100% !important;
+	}
+	.produtos-servicos ul, li{
+		font-weight: 400!important;
+	}
+ }
+ 
+ @media (min-width: 992px) {
+	.contato-servicos, .contato-principal{
+		width: 100% !important;
+	}
+	.produtos-servicos ul, li{
+		font-weight: 400!important;
+	}
  }
     
 @media (max-width: 575px) {
@@ -491,11 +536,30 @@ RESPONSIVE CSS
 	flex-wrap: wrap!important;
 	justify-content: center!important;
  }
+ .produtos-servicos ul, li{
+		font-weight: 400!important;
+	}
 }
 
 @media (max-width: 767px) {
 	header img{ max-width: 90px!important;}
 	#sobre, .row-sobre{width: 100%}
+	.produtos-servicos ul, li{
+		font-weight: 400!important;
+	}
+}
+
+@media (min-width: 768px) {
+	.contato-servicos, .contato-principal{
+		padding-top: 0px !important;
+		width: 40% !important;
+		margin: 0 auto !important;
+		margin-bottom: 30px!important;
+	}
+	.produtos-servicos ul, li{
+		font-weight: 400!important;
+	}
+	
 }
 
 @media (max-width: 797px) {
@@ -524,6 +588,10 @@ RESPONSIVE CSS
 	}
 	.produtos-servicos p{
 		text-align: justify;
+		font-weight: 600;
+	}
+	.produtos-servicos ul, li{
+		font-weight: 600 !important;
 	}
 	.produtos-servicos h4, h5{
 		text-align: center;
@@ -539,6 +607,15 @@ RESPONSIVE CSS
 	}
 	#contato{
 		padding-top: 30px;
+	}
+	form h2{
+		font-size: 25px;
+	}
+	.produtos-servicos ul, li{
+		font-weight: 400!important;
+	}
+	#contato form label{
+		font-size: 20px !important;
 	}
 }
 
