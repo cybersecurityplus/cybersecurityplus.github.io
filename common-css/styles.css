@@ -234,6 +234,13 @@ footer a:hover {color: #FFF!important; text-decoration: none; border-bottom: 3px
 
 footer .logo{border-bottom: none!important;}
 
+.facebook{
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
 /* ---------------------------------
 12. POST
 --------------------------------- */
@@ -282,6 +289,7 @@ font-weight: 500!important;
 .marketing h2 {
   font-weight: 400;
   text-align: center;
+/*   color: #fe6501; */
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
@@ -294,6 +302,9 @@ font-weight: 500!important;
 	padding-top: 55px;
 	height: 100vh;
 	padding-right: 15px;
+}
+.marketing p{
+	font-weight: 400;
 }
 .btn-secondary{
 	color: #fff;
@@ -424,6 +435,42 @@ font-weight: 500!important;
     background-color: #333;
     border-color: #fe6501;
 }
+
+
+/* ---------------------------------
+PRODUTOS E SERVIÇOS
+--------------------------------- */
+.produtos-servicos h4{
+	color: #fe6501;
+	font-weight: bold;
+	text-align: center;
+}
+
+.produtos-servicos h5{
+	padding-top: 5px;
+	color: #fe6501;
+	font-weight: bold;
+}
+
+.produtos-servicos img{
+	max-width: 60%;
+	padding-bottom: 20px;
+	display: block;
+    margin: 0 auto;
+}
+
+.produtos-servicos p{
+	font-weight: 400;
+}
+
+.produtos-servicos ul, li{
+	font-weight: 400;
+}
+
+.produtos-servicos-logo{
+	max-width: 15% !important;
+	padding-top: 120px;
+}
 /* ---------------------------------
 RESPONSIVE CSS
 --------------------------------- */
@@ -459,6 +506,39 @@ RESPONSIVE CSS
 @media (max-width: 580px) {
 	#sobre h4{
 		padding-bottom: 5px;
+	}
+	.facebook iframe{
+		width: auto !important;
+	}
+	
+	.produtos-servicos-logo{
+		max-width: 30% !important;
+		padding-top: 80px;
+	}
+	
+	.produtos-servicos img{
+		max-width: 100%;
+		padding-bottom: 20px;
+		display: block;
+	    margin: 0 auto;
+	}
+	.produtos-servicos p{
+		text-align: justify;
+	}
+	.produtos-servicos h4, h5{
+		text-align: center;
+	}
+	#servicos H4{
+		padding-top: 20px;
+	}
+	#sobre{
+		padding-top: 80px;
+	}
+	#parceiros{
+		padding-top: 80px;
+	}
+	#contato{
+		padding-top: 30px;
 	}
 }
 
