@@ -499,6 +499,9 @@ PRODUTOS E SERVIÇOS
 .alerta{
 	max-width: 30%!important;
 }
+.img-block{
+	max-width: 40% !important;
+}
 /* ---------------------------------
 RESPONSIVE CSS
 --------------------------------- */
