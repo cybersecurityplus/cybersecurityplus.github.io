@@ -20,7 +20,7 @@ html{ font-size: 100%; height: 100%;  overflow-x: hidden; touch-action: manipula
 
 body{ font-size: 15px; font-family: 'Roboto', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 300;
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
-	background: #f2f0eb; color: #000; position: relative;} 
+	background: #f2f0eb; color: #4267b2; position: relative;} 
 
 header  ul, li{ margin: 0; padding: 0; font-weight: 300; }
 footer  ul, li{ margin: 0; padding: 0; font-weight: 300; }
@@ -451,7 +451,9 @@ form h2{
 	color: #FFF;
 	font-weight: bold;
 	text-align: center;
+	text-decoration: none;
 }
+
 /* ---------------------------------
 PRODUTOS E SERVIÇOS
 --------------------------------- */
