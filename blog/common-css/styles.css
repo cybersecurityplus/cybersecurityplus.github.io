@@ -109,7 +109,7 @@ header a:hover{color: #FFF!important; border-bottom: 3px solid #FF5126;}
 
 .blog-area .row div[class^="col"] { margin-bottom: 30px; }
 
-.blog-area{ text-align: center; background: #EEE; }
+.blog-area{ text-align: center; background: #EEE; padding-top: 100px; }
 
 .blog-area .single-post{ height: 100%; position: relative; padding-bottom: 45px;
 	overflow: hidden; box-shadow: 0px 0px 5px rgba(0,0,0,.1); border: 1px solid #ddd; background: #fff; }
@@ -259,6 +259,21 @@ footer a:hover {color: #FFF!important; text-decoration: none; border-bottom: 3px
 
 
 footer .logo{border-bottom: none!important;}
+
+/* ---------------------------------
+12. CUSTOM
+--------------------------------- */
+
+p a{
+	color: blue;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+.img-inline {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
 /* ---------------------------------
 12. POST
