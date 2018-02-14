@@ -495,14 +495,18 @@ PRODUTOS E SERVIÇOS
 }
 
 #trabalhando{
-	max-width: 40%;
+	max-width: 35%;
 }
 .alerta{
-	max-width: 30%!important;
+	max-width: 20%!important;
 }
 .img-block{
-	max-width: 40% !important;
+	max-width: 30% !important;
 }
+.img-block-bigger{
+	max-width: 50% !important;
+}
+
 /* ---------------------------------
 RESPONSIVE CSS
 --------------------------------- */
@@ -622,6 +626,21 @@ RESPONSIVE CSS
 	}
 	#contato form label{
 		font-size: 20px !important;
+	}
+	.img-block{
+		max-width: 50% !important;
+	}
+	.img-mobile{
+		max-width: 30% !important;
+	}
+	.img-block-bigger-mobile{
+		max-width: 100% !important;
+	}
+	.img-block-smaller-mobile{
+		max-width: 80% !important;
+	}
+	.trabalhando-mobile{
+		max-width: 60% !important;
 	}
 }
 
