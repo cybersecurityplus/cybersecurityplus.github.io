@@ -275,6 +275,10 @@ p a{
 	padding-bottom: 20px;
 }
 
+.fb-comments{
+	margin: 0 auto !important;
+}
+
 /* ---------------------------------
 12. POST
 --------------------------------- */
