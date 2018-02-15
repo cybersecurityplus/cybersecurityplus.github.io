@@ -279,6 +279,11 @@ p a{
 	text-align: right;
 }
 
+.fb-comments{
+	text-align: center;
+	margin: 0 auto !important;
+}
+
 /* ---------------------------------
 12. POST
 --------------------------------- */
