@@ -1,0 +1,15 @@
+{
+    "name": "CyberSecurity++ Inteligência em Segurança Cibernética",
+    "short_name": "CyberSecurity++",
+    "lang": "pt-BR",
+    "start_url": "http://cybersecurityplus.com.br",
+    "display": "standalone",
+    "theme_color": "#425c77",
+    "icons": [
+        {
+            "src": "http://cybersecurityplus.com.br/assets/images/src/logo-white.png",
+            "sizes": "190x190",
+            "type": "png"
+        }
+    ]
+}
